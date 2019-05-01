@@ -84,5 +84,9 @@ class UsersController < ApplicationController
     render json:{mess: "Music is Life"}
   end 
 
+  def programmer
+    render json:{mess: "This is a programmer"}
+  end 
+
 
 end
